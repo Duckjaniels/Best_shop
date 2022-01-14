@@ -1,8 +1,92 @@
 *{
     box-sizing: border-box;
 }
+body{
+    font-family: Open Sans;
+}
 
 .container {
     margin: 0 auto;
     width: 1352px;
 }
+header{
+    height: 70px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    margin-bottom: 130px;
+}
+.page-header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop-logo {
+    text-align: left;
+    font: normal normal 300 32px/37px Raleway;
+    color: #08A6E4;
+}
+.page-nav-list {
+    display: flex;
+}
+.page-nav-list li {
+
+}
+.page-nav-list a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #A5A5A5;
+    font-weight: bold;
+}
+.page-nav-list a:hover {
+    color: #000000;
+    border-color: #08A6E4;
+}
+.nav-under{
+    border-bottom: 4px solid transparent;
+    letter-spacing: 0.1875rem;
+    padding: 28px 18px 22px;
+
+}
+
+section .sell-more{
+    height: 712px;
+    margin-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+}
+.sell-image{
+    width: 100%;
+    height: auto;
+}
+.sell-more .container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    font: normal normal normal 49px/57px Raleway;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.subtitle{
+    text-align: center;
+    text-align: center;
+    font: normal normal normal 16px/22px "Open Sans";
+    color: #000000;
+    margin-bottom: 38px;
+}
+.title-btn{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font: normal normal normal 16px/22px "Open Sans";
+    color: #FFFFFF;
+    background: #08A6E4 0% 0% no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    padding: 22px 155px;
+}
+
