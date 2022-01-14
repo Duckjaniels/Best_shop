@@ -50,13 +50,8 @@ header{
 
 section .sell-more{
     height: 712px;
-    margin-bottom: 100px;
     background-size: cover;
     background-position: center;
-}
-.sell-image{
-    width: 100%;
-    height: auto;
 }
 .sell-more .container{
     height: auto;
@@ -64,6 +59,11 @@ section .sell-more{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.sell-image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
 }
 .title{
     text-align: center;
@@ -89,4 +89,33 @@ section .sell-more{
     border-radius: 40px;
     padding: 22px 155px;
 }
-
+.article .container{
+    max-width: 800px;
+    margin: 100px auto 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.article-title{
+    text-align: center;
+    font: normal normal normal 36px/42px Raleway;
+    Color: #000000;
+}
+.article-single{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-family: Raleway;
+    max-width: 160px;
+}
+.article-circle{
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+}
+.article-photo-img{
+position: absolute;
+}
