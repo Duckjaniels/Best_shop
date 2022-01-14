@@ -29,7 +29,7 @@ header{
     display: flex;
 }
 .page-nav-list li {
-
+margin: 25px;
 }
 .page-nav-list a {
     text-transform: uppercase;
@@ -89,16 +89,18 @@ section .sell-more{
     border-radius: 40px;
     padding: 22px 155px;
 }
-.article .container{
-    max-width: 800px;
-    margin: 100px auto 120px;
+
+article{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
 }
 .article-title{
     text-align: center;
     font: normal normal normal 36px/42px Raleway;
     Color: #000000;
+    margin-bottom: 100px;
 }
 .article-single{
     display: flex;
@@ -108,14 +110,37 @@ section .sell-more{
     align-items: center;
     text-align: center;
     font-family: Raleway;
-    max-width: 160px;
 }
+.article-photo-img{
+    margin-top: 10px;
+}
+
 .article-circle{
     border-radius: 50%;
     width: 63px;
     height: 63px;
     position: absolute;
+    background-color: #08A6E4;
 }
 .article-photo-img{
 position: absolute;
 }
+.article-numbers{
+    text-align: center;
+    font:normal normal 800 20px/24px Raleway;
+    color: #000000;
+    padding: 20px;
+    margin-top: 50px;
+}
+.article-text{
+    text-align: center;
+    font:normal normal 17px/20px Raleway;
+    color: #A5A5A5;
+}
+.article-single:nth-child(1) .article-circle{
+    background-color: #FB3B64;
+}
+.article-single:nth-child(3) .article-circle{
+    background-color: #55DFB4;
+}
+
