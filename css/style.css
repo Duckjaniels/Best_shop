@@ -305,3 +305,117 @@ position: absolute;
     margin-left: 35px;
     margin-bottom: 91px;
 }
+
+h2{
+    font: normal normal normal 36px/42px Raleway;
+}
+.pricing{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.pricing-box{
+    width: 370px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #FB3B64;
+}
+.pricing-details{
+    margin-top: 34px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.pricing-type{
+    font: normal normal bold 20px/1px "Raleway";
+    margin-bottom: 14px;
+}
+.pricing-price{
+    font: normal normal 300 46px/2px "Open Sans";
+    color: #FB3B64;
+    padding: 35px;
+}
+.pricing-limited{
+    text-align: center;
+    margin-top: 15px;
+    font: normal normal bold 12px/1px Raleway;
+    color: #13253B;
+}
+.pricing-items{
+    text-align: center;
+}
+.pricing-item{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.pricing-item::before{
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url("../images/Ckechmark-1.svg");
+}
+.pricing-item-not::before{
+    background-image: url("../images/Close.svg");
+}
+.btn{
+    padding: 16px 64px;
+    background: #EB476E 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+}
+.pricing-box .btn{
+    position: relative;
+    bottom: -25px;
+    font: normal normal bold 13px/41px "Open Sans";
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+.pricing-box-basic{
+    --accent-color: #EB476E;
+}
+.pricing-box-basic .pricing-price{
+    margin-bottom: 30px;
+
+}
+.pricing-box-professional{
+    border-color: #07ACE6;
+    height: 500px;
+    margin: 0 40px;
+    box-shadow: 5px 1px 27px;
+
+}
+.pricing-box-professional .pricing-type{
+    font: normal normal bold 21px/1px Raleway;
+}
+.pricing-box-professional .pricing-price{
+    color: #07ACE6;
+}
+.pricing-box-professional .btn{
+    color: #FFFFFF;
+    background-color: #07ACE6;
+    margin-top: 30px;
+}
+.pricing-box-premium .pricing-price{
+    color: #55DFB4;
+}
+.pricing-box-premium .btn{
+    color: #FFFFFF;
+    background-color: #55DFB4;
+}
+.pricing-box-professional .pricing-item{
+    margin-bottom: 25px;
+}
+.pricing-box-premium{
+    border-color:#55DFB4;
+}
