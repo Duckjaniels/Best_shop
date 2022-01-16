@@ -475,6 +475,7 @@ h2{
 }
 .questions{
     margin-top: -100px;
+    margin-bottom: 60px;
 }
 .message{
     margin-top: 170px;
@@ -517,4 +518,26 @@ label input{
     height: 57px;
     border: none;
     border-radius: 35px;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 20px 137px;
+    box-shadow: 0px -5px 40px #00000029;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+}
+.footer-title{
+    text-align: left;
+    font: normal normal 300 26px/30px Raleway;
+    color: #08A6E4;
+    margin-bottom: 6px;
+}
+.footer-text{
+    text-align: left;
+    font: normal normal normal 11px/15px "Open Sans";
+    color: #A5A5A5;
+}
+.footer-icons img{
+    margin-left: 20px;
 }
