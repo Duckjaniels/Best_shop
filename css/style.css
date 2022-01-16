@@ -205,7 +205,6 @@ position: absolute;
     z-index: 1;
     margin-top:-90px;
 }
-
 .second {
     display: flex;
     height: 370px;
@@ -275,7 +274,6 @@ position: absolute;
     max-width: none;
     margin: 70px 35px;
 }
-
 .content-photo-third{
     flex-grow:1;
     display: flex;
@@ -418,4 +416,60 @@ h2{
 }
 .pricing-box-premium{
     border-color:#55DFB4;
+}
+
+.questions{
+    margin: 155px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.message{
+    max-width: 440px;
+}
+.question-title{
+    text-align: left;
+    font: normal normal normal 49px/57px Raleway;
+    padding: 22px 0;
+}
+.question-subtitle{
+    text-align: left;
+    font: normal normal normal 16px/22px "Open Sans";
+    margin-bottom: 40px;
+}
+.info-mail{
+    font: normal normal 600 16px/22px "Open Sans";
+    color: #A5A5A5;
+}
+ .info-mail::before{
+     text-align: center;
+    content: "";
+    width: 27px;
+    height: 22px;
+    display: inline-block;
+     margin-right: 10px;
+    background: url("../images/Mail Icon.svg") 0% 0% no-repeat padding-box;
+}
+ .info-tel{
+     font: normal normal 600 16px/22px "Open Sans";
+     color: #A5A5A5;
+     padding: 0 20px;
+ }
+.info-tel::before{
+    font: normal normal 600 16px/22px "Open Sans";
+    color: #A5A5A5;
+    text-align: left;
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 10px;
+    background: url("../images/Phone Icon.svg") 0% 0% no-repeat padding-box;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    /*text-align: center;*/
+    align-content: center;
 }
