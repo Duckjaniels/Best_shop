@@ -1,49 +1,134 @@
 .ads .container {
   @include phone {
     width: $mobile-menu-width;
-    padding: 0 0;
+    padding: 0;
+    height: 1250px;
+  }
+
+    .content-first {
+      @include phone {
+        padding: 0;
+      }
+    }
+
+    .first {
+      @include phone {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 314px;
+        margin-left: 30px;
+        padding-top: 30px;
+
+        .underline-first {
+          @include phone {
+            display: none;
+          }
+        }
+
+        .content-image-first {
+          @include phone {
+            height: 120px;
+            padding: 0;
+            padding-top: 10px;
+          }
+        }
+
+        .content-photo-first {
+          @include phone {
+            height: 100px;
+            width: 180px;
+            top: 0;
+          }
+        }
+
+        .rectangle-first {
+          @include phone {
+            height: 90px;
+            width: 90px;
+            transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+            border-radius: 60px;
+            margin-top: -10px
+          }
+        }
+      }
+    }
+  }
+.second {
+  @include phone {
+    flex-direction: column-reverse;
+    display: flex;
+    width: 314px;
+    margin-left: 30px;
+    padding-top: 30px;
+  }
+}
+.content-second{
+  @include phone{
+   padding: 0px 0px 0px 36px;
 
   }
 }
-.content-first{
-  @include phone{
-    padding: 0;
+.content-image-second {
+  @include phone {
+    margin: 0;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-end;
   }
 }
-.first{
-  @include phone{
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column-reverse;
+.content-photo-second {
+  @include phone {
+    height: 100px;
+    width: 120px;
+    top: 0px;
   }
 }
-.underline-first{
-  @include phone{
+.circle-second {
+  @include phone {
+    width: 100px;
+    height: 100px;
+  }
+}
+.underline-second {
+  @include phone {
     display: none;
   }
 }
-.content-image-first{
+.third{
   @include phone{
-    width: 215px;
-    height: 150px;
+    flex-direction: column;
+    display: flex;
+    width: 314px;
+    margin-left: 30px;
+  }
+}
+.content-third{
+  @include phone{
     padding: 0;
-    padding-top: 10px;
+    width: 314px;
+    text-align: left;
+    padding-top: 20px;
   }
 }
-.content-photo-first {
+.underline-third {
   @include phone {
-    height: 120px;
-    width: 215px;
-    top: 0;
+    display: none;
   }
 }
-.rectangle-first{
-  @include phone{
-    height: 127px;
-    width: 127px;
-    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
-    border-radius: 60px;
-    margin-top: -10px
+.content-photo-third {
+  @include phone {
+    width: 100%
+  }
+}
+.content-image-third {
+  @include phone {
+    width: 100%;
+    margin: 0;
+    height: 170px;
+    align-items: normal;
+    padding-top: 20px;
+    padding-right: 20px;
   }
 }
