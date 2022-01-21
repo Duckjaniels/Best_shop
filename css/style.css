@@ -173,19 +173,23 @@ position: absolute;
     font: normal normal normal 16px/22px Open Sans;
     padding: 0 35px 30px 30px;
 }
+.content-first{
+    padding: 0px 200px 0 20px;
+}
 .content-photo-first{
     width: 386px;
     height: 219px;
     position: relative;
     top:-40px;
+    z-index: 3;
 }
 .content-photo-first img{
-    position: relative;
-    display: block;
     z-index: 2;
 }
 .content-image-first{
     display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
 }
 .underline-first{
     border: 4px solid #Fb3B64;
@@ -216,6 +220,11 @@ position: absolute;
     align-items: center;
     flex-direction: row-reverse;
 }
+.content-second{
+    display: inline-block;
+    padding-left: 250px;
+
+}
 .title-second {
     text-align: left;
     font: normal normal normal 35px/42px Raleway;
@@ -236,16 +245,19 @@ position: absolute;
 }
 .content-photo-second{
     width: 386px;
-    height: 219px;
+    height: 250px;
     position: relative;
+    z-index: 3;
 }
 .content-photo-second img{
     position: relative;
     z-index: 2;
     display: inline-block;
+
 }
 .content-image-second{
     display: flex;
+    margin: 20px 0 0 50px;
 }
 .circle-second {
     width: 320px;
@@ -258,32 +270,28 @@ position: absolute;
     display: block;
 }
 .third{
-    background: #55DFB4;
     display: flex;
     height: 370px;
 }
-.third > div{
-    margin-bottom: 0;
-}
-.content-third-solo{
-    max-width: 620px;
-    background: #FFFFFF;
-    margin-right: 60px;
-}
-.content-third .third-texts{
-    max-width: none;
-    margin: 70px 35px;
-}
-.content-photo-third{
-    flex-grow:1;
+.content-image-third{
+    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
     margin-left: 60px;
+    background-color: #55DFB4;
+}
+.content-third-solo{
+    display: inline-block;
+    background: #FFFFFF;
+    padding: 70px 35px 115px 36px;
+    max-width: 620px;
+
+}
+.content-photo-third{
+    height: 208px;
     width: 295px;
-    height: 370px;
-    margin-top:55px;
 }
 .title-third {
     text-align: left;
