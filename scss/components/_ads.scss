@@ -1,0 +1,49 @@
+.ads .container {
+  @include phone {
+    width: $mobile-menu-width;
+    padding: 0 0;
+
+  }
+}
+.content-first{
+  @include phone{
+    padding: 0;
+  }
+}
+.first{
+  @include phone{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+.underline-first{
+  @include phone{
+    display: none;
+  }
+}
+.content-image-first{
+  @include phone{
+    width: 215px;
+    height: 150px;
+    padding: 0;
+    padding-top: 10px;
+  }
+}
+.content-photo-first {
+  @include phone {
+    height: 120px;
+    width: 215px;
+    top: 0;
+  }
+}
+.rectangle-first{
+  @include phone{
+    height: 127px;
+    width: 127px;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    border-radius: 60px;
+    margin-top: -10px
+  }
+}

@@ -101,6 +101,7 @@ body {
 @media screen and (max-width: 1353px) {
   .sell-more {
     width: 375px;
+    margin-bottom: -30px;
   }
 }
 
@@ -131,6 +132,90 @@ body {
 @media screen and (max-width: 1353px) {
   .sell-image {
     height: 200px;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .stats .container {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .article-title {
+    font-size: 30px;
+    margin: 0 36px;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .article {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .article-single {
+    margin-bottom: -80px;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .ads .container {
+    width: 375px;
+    padding: 0 0;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .content-first {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .first {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .underline-first {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .content-image-first {
+    width: 215px;
+    height: 150px;
+    padding: 0;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .content-photo-first {
+    height: 120px;
+    width: 215px;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .rectangle-first {
+    height: 127px;
+    width: 127px;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    border-radius: 60px;
+    margin-top: -10px;
   }
 }
 /*# sourceMappingURL=main.css.map */

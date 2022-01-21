@@ -1,0 +1,25 @@
+.stats .container {
+  @include phone {
+    width: $mobile-menu-width;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+}
+.article-title{
+  @include  phone{
+    font-size: 30px;
+    margin: 0 36px
+  }
+}
+.article{
+  @include phone{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.article-single{
+  @include phone{
+    margin-bottom: -80px;
+  }
+}
