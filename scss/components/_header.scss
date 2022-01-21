@@ -1,0 +1,27 @@
+$mobile-menu-width: 375px;
+.page-header {
+  @include phone {
+    width: $mobile-menu-width;
+    display: flex;
+    margin-bottom: 60px;
+  }
+}
+  .hamburger, .header__menu-btn {
+
+    @include phone {
+      font-size: 20px;
+      width: 0;
+      transform: translateX(0);
+      transition: transform 0.5s;
+      margin-right: 30px;
+    }
+    @include desktop {
+      display: none;
+    }
+  }
+
+nav{
+    @include phone{
+      display: none;
+    }
+  }

@@ -1,0 +1,136 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.container {
+  margin: 0 auto;
+}
+@media screen and (max-width: 1353px) {
+  .container {
+    max-width: 1352px;
+    padding: 0 15px;
+  }
+}
+@media screen and (min-width: 1354px) {
+  .container {
+    max-width: 1353px;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .page-header {
+    width: 375px;
+    display: flex;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .hamburger, .header__menu-btn {
+    font-size: 20px;
+    width: 0;
+    transform: translateX(0);
+    transition: transform 0.5s;
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1354px) {
+  .hamburger, .header__menu-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .sell-more {
+    width: 375px;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .content {
+    margin: 32px;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .subtitle {
+    margin: 30px;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .title-btn {
+    padding: 13px 92px;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  .sell-image {
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

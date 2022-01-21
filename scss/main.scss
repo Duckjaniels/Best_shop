@@ -1,9 +1,10 @@
-@import "/global/reset";
+@import "global/reset";
 
 @import "variables/colors";
 @import "variables/spacing";
 @import "variables/breakpoints";
+@import "variables/fonts";
 
-@import "global";
+@import "global/global";
 
 @import "components/all";

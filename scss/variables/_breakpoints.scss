@@ -1,0 +1,19 @@
+$phone-width: 1352px;
+$desktop-width: 1353px;
+
+$phone-start: calc($phone-width + 1px);
+$phone-end: $desktop-width;
+
+$desktop-start: calc($desktop-width + 1px);
+
+@mixin phone {
+  @media screen and (max-width: $phone-start) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $desktop-start) {
+    @content;
+  }
+}

@@ -1,0 +1,32 @@
+.sell-more {
+  @include phone{
+    width: $mobile-menu-width;
+    //padding: 100px 32px 0 32px;
+  }
+}
+.content{
+
+  @include phone{
+    margin: 32px;
+  }
+  }
+.title{
+  @include phone{
+    font-size: $large-font-size;
+  }
+}
+.subtitle{
+  @include phone{
+    margin: 30px;
+  }
+}
+.title-btn{
+  @include phone{
+  padding: 13px 92px;
+}
+}
+.sell-image{
+  @include phone{
+    height: 200px;
+  }
+}
