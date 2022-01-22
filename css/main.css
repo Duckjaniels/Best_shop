@@ -73,7 +73,6 @@ body {
   .page-header {
     width: 375px;
     display: flex;
-    margin-bottom: 60px;
   }
 }
 
@@ -186,7 +185,6 @@ body {
     flex-direction: column-reverse;
     width: 314px;
     margin-left: 30px;
-    padding-top: 30px;
   }
 }
 @media screen and (max-width: 1353px) and (max-width: 1353px) {
@@ -432,6 +430,24 @@ body {
   .question-btn {
     margin-left: 150px;
     margin-top: 20px;
+  }
+}
+
+label .check {
+  height: 24px;
+  width: 100%;
+  color: #07ACE6;
+  background-color: #f7f7f7;
+}
+
+@media screen and (max-width: 1353px) {
+  .footer .container {
+    width: 375px;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .container .footer-icons {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */

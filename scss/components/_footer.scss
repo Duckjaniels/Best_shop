@@ -1,0 +1,10 @@
+.footer .container{
+  @include phone {
+    width: $mobile-menu-width;
+    margin: 0;
+    padding: 0;
+    .footer-icons{
+      margin:0;
+    }
+  }
+}

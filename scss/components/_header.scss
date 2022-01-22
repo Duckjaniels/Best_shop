@@ -3,7 +3,6 @@ $mobile-menu-width: 375px;
   @include phone {
     width: $mobile-menu-width;
     display: flex;
-    margin-bottom: 60px;
   }
 }
   .hamburger, .header__menu-btn {
