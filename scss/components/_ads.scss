@@ -1,8 +1,10 @@
+$mobile-menu-width: 375px;
 .ads .container {
   @include phone {
-    width: $mobile-menu-width;
+    width: 375px;
     padding: 0;
     height: 1250px;
+    display: block;
   }
 
     .content-first {

@@ -1,0 +1,32 @@
+
+.questions{
+  @include phone{
+    width: 375px;
+    padding: 0;
+    display: block;
+    margin-top: 0;
+    .info{
+      flex-direction: column;
+      .info-tel{
+        padding: 5px 0;
+      }
+    }
+  }
+}
+.message{
+  @include phone{
+    margin: 0;
+    max-width: 375px;
+  }
+}
+.label{
+  @include phone{
+    margin-top: 30px;
+  }
+}
+.question-btn{
+  @include phone{
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+}

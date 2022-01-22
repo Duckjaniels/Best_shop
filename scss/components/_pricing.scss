@@ -1,0 +1,86 @@
+.pricing {
+  @include phone {
+    width: $mobile-menu-width;
+    margin: 0;
+    margin-top: 50px;
+  }
+}
+.pricing-boxes{
+  @include phone{
+    flex-direction: column;
+    padding-left: 20px;
+  }
+}
+.price{
+@include phone{
+  font-size: 36px;
+}
+}
+.pricing-box .btn{
+  @include phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -120px;
+    left: -200px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+  }
+}
+.pricing_items{
+  @include phone{
+    display: inline-block;
+    margin-left: 20px;
+    height: 175px;
+    width: 130px;
+    .pricing-item{
+      width: 130px;
+    }
+  }
+}
+.pricing-box-basic{
+  @include phone{
+    height: 250px;
+    width: 290px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    .pricing-price{
+      margin-bottom: -20px;
+    }
+  }
+}
+.pricing-box-professional{
+  @include phone{
+    height: 280px;
+    width: 340px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+}
+.pricing-box-premium{
+  @include phone{
+    height: 250px;
+    width: 290px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    .pricing-details{
+      margin-left: -20px;
+
+    }
+
+  }
+}
+.pricing-box-premium .btn{
+  @include phone{
+  margin-left: -32px;
+}
+}
+.pricing-box-premium .pricing_items{
+  @include phone{
+    margin-left: 0;
+  }
+}
