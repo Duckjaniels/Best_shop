@@ -2,7 +2,7 @@ Best Shop website
 
 Responsive web design done on CL workshops
 
-Te main purpose of the project is creacting a resposive webiste with use of HTML 5 and scss with use of all basics.
+Te main purpose of the project is creating a responsive website with use of HTML 5 and scss with use of all basics.
 
 ## Table of Contents
 
