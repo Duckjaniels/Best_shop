@@ -1,7 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Open Sans;
 }
 
@@ -9,77 +10,90 @@ body{
     margin: 0 auto;
     width: 1352px;
 }
-header{
+
+header {
     height: 70px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     margin-bottom: 130px;
 }
+
 .page-header .container {
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .shop-logo {
     text-align: left;
     font: normal normal 300 32px/37px Raleway;
     color: #08A6E4;
 }
+
 .page-nav-list {
     display: flex;
 }
+
 .page-nav-list li {
-margin: 25px;
+    margin: 25px;
 }
+
 .page-nav-list a {
     text-transform: uppercase;
     text-decoration: none;
     color: #A5A5A5;
     font-weight: bold;
 }
+
 .page-nav-list a:hover {
     color: #000000;
     border-color: #08A6E4;
 }
-.nav-under{
+
+.nav-under {
     border-bottom: 4px solid transparent;
     letter-spacing: 0.1875rem;
     padding: 28px 18px 22px;
 
 }
 
-section .sell-more{
+section .sell-more {
     height: 712px;
     background-size: cover;
     background-position: center;
 }
-.sell-more .container{
+
+.sell-more .container {
     height: auto;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.sell-image{
+
+.sell-image {
     width: 100%;
     height: auto;
     margin-bottom: 100px;
 }
-.title{
+
+.title {
     text-align: center;
     font: normal normal normal 49px/57px Raleway;
     color: #000000;
     margin-bottom: 20px;
     margin-top: 20px
 }
-.subtitle{
+
+.subtitle {
     text-align: center;
     text-align: center;
     font: normal normal normal 16px/22px "Open Sans";
     color: #000000;
     margin-bottom: 38px;
 }
-.title-btn{
+
+.title-btn {
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -91,19 +105,21 @@ section .sell-more{
     padding: 22px 155px;
 }
 
-article{
+article {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
 
 }
-.article-title{
+
+.article-title {
     text-align: center;
     font: normal normal normal 36px/42px Raleway;
     Color: #000000;
     margin-bottom: 100px;
 }
-.article-single{
+
+.article-single {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -112,48 +128,57 @@ article{
     text-align: center;
     font-family: Raleway;
 }
-.article-photo-img{
+
+.article-photo-img {
     margin-top: 10px;
 }
 
-.article-circle{
+.article-circle {
     border-radius: 50%;
     width: 63px;
     height: 63px;
     position: absolute;
     background-color: #08A6E4;
 }
-.article-photo-img{
-position: absolute;
+
+.article-photo-img {
+    position: absolute;
 }
-.article-numbers{
+
+.article-numbers {
     text-align: center;
-    font:normal normal 800 20px/24px Raleway;
+    font: normal normal 800 20px/24px Raleway;
     color: #000000;
     padding: 20px;
     margin-top: 50px;
 }
-.article-text{
+
+.article-text {
     text-align: center;
-    font:normal normal 17px/20px Raleway;
+    font: normal normal 17px/20px Raleway;
     color: #A5A5A5;
     margin-bottom: 121px;
 }
-.article-single:nth-child(1) .article-circle{
+
+.article-single:nth-child(1) .article-circle {
     background-color: #FB3B64;
 }
-.article-single:nth-child(3) .article-circle{
+
+.article-single:nth-child(3) .article-circle {
     background-color: #55DFB4;
 }
-.ads{
+
+.ads {
     padding: 100px 0;
-    background: 0% 0% no-repeat padding-box;
+    background: 0 0 no-repeat padding-box;
     background-color: #cccccc8c;
 
 }
-.ads .container{
+
+.ads .container {
     padding: 0 100px;
 }
+
 .first {
     height: 370px;
     display: flex;
@@ -164,35 +189,42 @@ position: absolute;
     justify-content: space-between;
     align-items: flex-end;
 }
+
 .title-first {
     text-align: left;
     font: normal normal normal 35px/42px Raleway;
-    padding:  0px 0px 30px 36px;
+    padding: 0px 0px 30px 36px;
 }
+
 .text-first {
     text-align: left;
     font: normal normal normal 16px/22px Open Sans;
     padding: 0 35px 30px 30px;
 }
-.content-first{
+
+.content-first {
     padding: 0px 200px 0 20px;
 }
-.content-photo-first{
+
+.content-photo-first {
     width: 386px;
     height: 219px;
     position: relative;
-    top:-40px;
+    top: -40px;
     z-index: 3;
 }
-.content-photo-first img{
+
+.content-photo-first img {
     z-index: 2;
 }
-.content-image-first{
+
+.content-image-first {
     display: flex;
     justify-content: flex-end;
     padding-right: 80px;
 }
-.underline-first{
+
+.underline-first {
     border: 4px solid #Fb3B64;
     background-color: #FB3B64;
     width: 328px;
@@ -200,16 +232,18 @@ position: absolute;
     margin-left: 35px;
     margin-bottom: 91px;
 }
-.rectangle-first{
+
+.rectangle-first {
     width: 180px;
     height: 180px;
     transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
-    background:  #FB3B64 0% 0% no-repeat padding-box;
+    background: #FB3B64 0% 0% no-repeat padding-box;
     border-radius: 41px;
     position: absolute;
     z-index: 1;
-    margin-top:-90px;
+    margin-top: -90px;
 }
+
 .second {
     display: flex;
     height: 370px;
@@ -221,22 +255,26 @@ position: absolute;
     align-items: center;
     flex-direction: row-reverse;
 }
-.content-second{
+
+.content-second {
     display: inline-block;
     padding-left: 250px;
 
 }
+
 .title-second {
     text-align: left;
     font: normal normal normal 35px/42px Raleway;
     padding: 0 35px 30px 0;
 }
-.text-second{
+
+.text-second {
     display: inline-block;
     text-align: left;
     font: normal normal normal 16px/22px Open Sans;
-    padding:  0 35px 30px 0;
+    padding: 0 35px 30px 0;
 }
+
 .underline-second {
     border: 4px solid #08A6E4;
     background-color: #08A6E4;
@@ -244,22 +282,26 @@ position: absolute;
     height: 4px;
     margin-right: 35px;
 }
-.content-photo-second{
+
+.content-photo-second {
     width: 386px;
     height: 250px;
     position: relative;
     z-index: 3;
 }
-.content-photo-second img{
+
+.content-photo-second img {
     position: relative;
     z-index: 2;
     display: inline-block;
 
 }
-.content-image-second{
+
+.content-image-second {
     display: flex;
     margin: 20px 0 0 50px;
 }
+
 .circle-second {
     width: 320px;
     height: 320px;
@@ -270,11 +312,13 @@ position: absolute;
     z-index: 1;
     display: block;
 }
-.third{
+
+.third {
     display: flex;
     height: 370px;
 }
-.content-image-third{
+
+.content-image-third {
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -283,28 +327,33 @@ position: absolute;
     margin-left: 60px;
     background-color: #55DFB4;
 }
-.content-third-solo{
+
+.content-third-solo {
     display: inline-block;
     background: #FFFFFF;
     padding: 70px 35px 115px 36px;
     max-width: 620px;
 
 }
-.content-photo-third{
+
+.content-photo-third {
     height: 208px;
     width: 295px;
 }
+
 .title-third {
     text-align: left;
     font: normal normal normal 35px/42px Raleway;
-    padding:  0px 0px 30px 36px;
+    padding: 0px 0px 30px 36px;
 }
+
 .text-third {
     text-align: left;
     font: normal normal normal 16px/22px Open Sans;
     padding: 0 35px 30px 30px;
 }
-.underline-third{
+
+.underline-third {
     border: 4px solid #55DFB4;
     background-color: #55DFB4;
     width: 328px;
@@ -313,24 +362,27 @@ position: absolute;
     margin-bottom: 91px;
 }
 
-.price{
+.price {
     margin-top: 20px;
     font: normal normal normal 36px/42px Raleway;
 }
-.pricing{
+
+.pricing {
     margin: 100px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.pricing-boxes{
+
+.pricing-boxes {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
 }
-.pricing-box{
+
+.pricing-box {
     width: 370px;
     border-radius: 18px;
     display: flex;
@@ -338,34 +390,41 @@ position: absolute;
     align-items: center;
     border: 1px solid #FB3B64;
 }
-.pricing-details{
+
+.pricing-details {
     margin-top: 34px;
     margin-bottom: 60px;
     text-align: center;
 }
-.pricing-type{
+
+.pricing-type {
     font: normal normal bold 20px/1px "Raleway";
     margin-bottom: 14px;
 }
-.pricing-price{
+
+.pricing-price {
     font: normal normal 300 46px/2px "Open Sans";
     color: #FB3B64;
     padding: 35px;
 }
-.pricing-limited{
+
+.pricing-limited {
     text-align: center;
     margin-top: 15px;
     font: normal normal bold 12px/1px Raleway;
     color: #13253B;
 }
-.pricing-items{
+
+.pricing-items {
     text-align: center;
 }
-.pricing-item{
+
+.pricing-item {
     font-size: 14px;
     margin-bottom: 20px;
 }
-.pricing-item::before{
+
+.pricing-item::before {
     content: "";
     width: 11px;
     height: 11px;
@@ -373,15 +432,18 @@ position: absolute;
     margin-right: 10px;
     background-image: url("../images/Ckechmark-1.svg");
 }
-.pricing-item-not::before{
+
+.pricing-item-not::before {
     background-image: url("../images/Close.svg");
 }
-.btn{
+
+.btn {
     padding: 16px 64px;
     background: #EB476E 0% 0% no-repeat padding-box;
     border-radius: 23px;
 }
-.pricing-box .btn{
+
+.pricing-box .btn {
     position: relative;
     bottom: -25px;
     font: normal normal bold 13px/41px "Open Sans";
@@ -389,84 +451,101 @@ position: absolute;
     color: #FFFFFF;
 
 }
-.pricing-box-basic{
+
+.pricing-box-basic {
     --accent-color: #EB476E;
 }
-.pricing-box-basic .pricing-price{
+
+.pricing-box-basic .pricing-price {
     margin-bottom: 30px;
 
 }
-.pricing-box-professional{
+
+.pricing-box-professional {
     border-color: #07ACE6;
     height: 500px;
     margin: 0 40px;
     box-shadow: 5px 1px 27px;
 
 }
-.pricing-box-professional .pricing-type{
+
+.pricing-box-professional .pricing-type {
     font: normal normal bold 21px/1px Raleway;
 }
-.pricing-box-professional .pricing-price{
+
+.pricing-box-professional .pricing-price {
     color: #07ACE6;
 }
-.pricing-box-professional .btn{
+
+.pricing-box-professional .btn {
     color: #FFFFFF;
     background-color: #07ACE6;
     margin-top: 30px;
 }
-.pricing-box-premium .pricing-price{
+
+.pricing-box-premium .pricing-price {
     color: #55DFB4;
 }
-.pricing-box-premium .btn{
+
+.pricing-box-premium .btn {
     color: #FFFFFF;
     background-color: #55DFB4;
 }
-.pricing-box-professional .pricing-item{
+
+.pricing-box-professional .pricing-item {
     margin-bottom: 25px;
 }
-.pricing-box-premium{
-    border-color:#55DFB4;
+
+.pricing-box-premium {
+    border-color: #55DFB4;
 }
 
-.questions{
+.questions {
     margin: 155px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
-.message{
+
+.message {
     max-width: 440px;
 }
-.question-title{
+
+.question-title {
     text-align: left;
     font: normal normal normal 49px/57px Raleway;
     padding: 22px 0;
 }
-.question-subtitle{
+
+.question-subtitle {
     text-align: left;
     font: normal normal normal 16px/22px "Open Sans";
     margin-bottom: 40px;
 }
-.info-mail{
+
+.info-mail {
     font: normal normal 600 16px/22px "Open Sans";
     color: #A5A5A5;
 }
- .info-mail::before{
-     text-align: center;
+
+.info-mail::before {
+    text-align: center;
     content: "";
     width: 27px;
     height: 22px;
     display: inline-block;
-     margin-right: 10px;
+    margin-right: 10px;
     background: url("../images/Mail Icon.svg") 0% 0% no-repeat padding-box;
 }
- .info-tel{
-     font: normal normal 600 16px/22px "Open Sans";
-     color: #A5A5A5;
-     padding: 0 20px;
- }
-.info-tel::before{
+
+.info-tel {
+    font: normal normal 600 16px/22px "Open Sans";
+    color: #A5A5A5;
+    padding: 0 20px;
+}
+
+.info-tel::before {
     font: normal normal 600 16px/22px "Open Sans";
     color: #A5A5A5;
     text-align: left;
@@ -477,17 +556,20 @@ position: absolute;
     margin-right: 10px;
     background: url("../images/Phone Icon.svg") 0% 0% no-repeat padding-box;
 }
-.info{
+
+.info {
     display: flex;
     flex-direction: row;
     /*text-align: center;*/
     align-content: center;
 }
-.questions{
+
+.questions {
     margin-top: -100px;
     margin-bottom: 60px;
 }
-.message{
+
+.message {
     margin-top: 170px;
 }
 
@@ -506,7 +588,7 @@ input {
     width: 100%;
 }
 
-.label{
+.label {
     padding: 30px 0;
     display: flex;
     font: normal normal normal 12px/17px "Open Sans";
@@ -526,7 +608,8 @@ input {
     border: none;
     border-radius: 35px;
 }
-footer .container{
+
+footer .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -535,20 +618,24 @@ footer .container{
     background: #F7F7F7 0% 0% no-repeat padding-box;
     width: 100%;
 }
-.footer-title{
+
+.footer-title {
     text-align: left;
     font: normal normal 300 26px/30px Raleway;
     color: #08A6E4;
     margin-bottom: 6px;
 }
-.footer-text{
+
+.footer-text {
     text-align: left;
     font: normal normal normal 11px/15px "Open Sans";
     color: #A5A5A5;
 }
-.footer-icons img{
+
+.footer-icons img {
     margin-left: 20px;
 }
-.footer-icons{
+
+.footer-icons {
     margin-right: 200px;
 }
