@@ -54,7 +54,7 @@ Project is: _in progress_.
 
 ## Room for Improvement
 
-- Adding js calculator section that count product prices
+- Adding js calculator section that count product prices.
 
 ## Contact
 
